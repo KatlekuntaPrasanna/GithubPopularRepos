@@ -1,0 +1,44 @@
+.popular-repos-app {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.not-found-image {
+  height: 400px;
+  width: 500px;
+}
+
+.language-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.repos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
